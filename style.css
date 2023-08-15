@@ -1,0 +1,777 @@
+/* General Style*/
+body {
+    font-family: Tahoma, Verdana, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+/* Header Style*/
+
+header {
+
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+
+}
+
+.logo img {
+
+    width: 150px;
+    height: 60px;
+    margin-right: 250px;
+}
+
+h1 {
+
+    text-align: center;
+    text-decoration: none;
+    color: rgb(5, 5, 5);
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+/* Navigation Style*/
+nav {
+    background-color: #f1f1f1;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #1040c3;
+}
+
+a:hover {
+    background-color: #99a1a4;
+}
+
+/* Home Style*/
+#home {
+
+    padding: 200px;
+    background-image: url(bulb1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#home h2 {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: left;
+    font-size: 56px;
+    color: rgb(249, 245, 248);
+   
+}
+
+#home p {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: left;
+    font-size: 44px;
+    color: #ffffff;
+    
+}
+
+#homeimg {
+    background-color: black;
+
+}
+
+#homeimg p {
+    text-align: center;
+    text-decoration: solid;
+    color: #f1f1f1;
+    font-size: 35px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 0px;
+    padding: 20px;
+    margin-bottom: 0px;
+
+}
+
+#homeimg .container {
+    min-height: 400px;
+    
+}
+
+
+
+
+
+
+/* Quote of the day*/
+#quoteday {
+    background-image: url(yourself.jpg);
+    min-height: 1000px;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+
+
+
+.container {
+
+    background-color: rgb(10, 10, 10);
+
+    text-align: center;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+
+    margin-bottom: 20px;
+}
+
+/* Personal development*/
+#development {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    font-size: 25px;
+    color: #0f0e0e;
+    background-color: #e28cf5;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+
+#emotional {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    font-size: 25px;
+    color: #0d0d0d;
+    background-color: #e28cf5;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+
+}
+
+#health {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    font-size: 25px;
+    color: #070707;
+    background-color: #e28cf5;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+
+}
+
+#relationships {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    font-size: 25px;
+    color: #090909;
+    background-color: #e28cf5;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+
+}
+
+#communication {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    font-size: 25px;
+    color: #0f0f0f;
+    background-color: #e28cf5;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+
+#timemanagement {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    font-size: 25px;
+    color: #0a0a0a;
+    background-color: #e28cf5;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+
+}
+h2{
+    margin-top: 0px;
+}
+
+p{
+    margin-bottom: 0px;
+}
+
+/*  motivational stories*/
+
+
+#container {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 25px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    color: #0a0a0a;
+    background-image:url(storycovrr.jpg);
+    text-align: center;
+}
+
+.story {
+    margin-bottom: 20px;
+}
+
+
+/* quotesbytopic */
+
+main{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 25px;
+    color: #0a0a0a;
+    background-color: #efbdfa;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    
+
+}
+main ol li {
+    list-style-type: numeric;
+    margin-left: 20px;
+    
+}
+
+/*motivationalpictures*/
+
+.mp {
+    margin-left: 40px;
+}
+/* About Page */
+
+#about .container {
+    background-color: rgb(147, 180, 242);
+    padding: 50px;
+    text-align: center;
+  
+  }
+  
+  #about h2 {
+    color: rgb(44, 38, 237);
+  }
+  
+  #about p {
+    color: rgb(7, 7, 7);
+  
+    font-size: 16px;
+    line-height: 1.5;
+  
+  }
+  
+  #about ul {
+    list-style-type: disc;
+    margin-left: 20px;
+  }
+  
+  #about h2:hover {
+    background-color: #d7dbdc;
+  }
+
+
+
+
+
+/* Footer Style*/
+footer {
+    font-style: italic;
+    padding: 1em;
+    background: rgba(25, 25, 25, 0.90);
+    width: 100%;
+    font-size: 90%;
+    text-align: center;
+    color: #EAEAEA;
+    position: relative;
+    bottom: 0px;
+}
+
+footer a {
+    text-decoration: none;
+    color: #EAEAEA;
+}
+
+footer p {
+    margin: auto;
+    text-decoration: none;
+    color: #EAEAEA;
+}
+
+
+/* Media Queries for Tablet */
+@media screen and (max-width: 768px) {
+    /* Adjustments for tablets and smaller screens */
+  
+    /* Update logo margin for smaller screens */
+    .logo img {
+      margin-right: 10px;
+    }
+
+    
+    
+  
+    /* Update navigation styles for smaller screens */
+    nav {
+      padding: 10px;
+    }
+  
+    
+  
+    /* Update home section padding for smaller screens */
+    #home {
+      padding: 100px;
+    }
+  
+    
+   
+
+#homeimg p {
+    text-align: center;
+    text-decoration: solid;
+    color: #f1f1f1;
+    font-size: 35px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 0px;
+    padding: 20px;
+    margin-bottom: 0px;
+
+}
+
+#homeimg .container {
+    min-height: 400px;
+}
+
+
+
+
+#home h2 {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 56px;
+    color: rgb(249, 245, 248);
+    margin: auto;
+    padding: 0px;
+}
+
+#home p {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    font-size: 44px;
+    color: #ffffff;
+    margin: 0px 0px;
+
+
+}
+
+/* Quote of the day*/
+#quoteday {
+    background-image: url(yourself.jpg);
+    min-height: 1000px;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+
+
+
+.container {
+
+    background-color: rgb(10, 10, 10);
+
+    text-align: center;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 20px;
+}
+
+/* Personal development*/
+#development {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    font-size: 25px;
+    color: #0f0e0e;
+    background-color: #e28cf5;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+
+#emotional {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    font-size: 25px;
+    color: #0d0d0d;
+    background-color: #e28cf5;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+
+}
+
+#health {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    font-size: 25px;
+    color: #070707;
+    background-color: #e28cf5;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+
+}
+
+#relationships {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    font-size: 25px;
+    color: #090909;
+    background-color: #e28cf5;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+
+}
+
+#communication {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    font-size: 25px;
+    color: #0f0f0f;
+    background-color: #e28cf5;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+
+#timemanagement {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    font-size: 25px;
+    color: #0a0a0a;
+    background-color: #e28cf5;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+
+}
+
+
+
+/*  motivational stories*/
+
+
+#container {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 25px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    color: #0a0a0a;
+    background-image:url(storycovrr.jpg);
+    text-align: center;
+}
+
+.story {
+    margin-bottom: 20px;
+}
+
+
+/* quotesbytopic */
+
+main{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 25px;
+    color: #0a0a0a;
+    background-color: #efbdfa;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    
+
+}
+main ol li {
+    list-style-type: numeric;
+    margin-left: 20px;
+    
+}
+
+/*motivationalpictures*/
+
+.mp {
+    margin-left: 40px;
+}
+
+
+/* About Page */
+
+#about .container {
+    background-color: rgb(147, 180, 242);
+    padding: 50px;
+    text-align: center;
+  
+  }
+  
+  #about h2 {
+    color: rgb(44, 38, 237);
+  }
+  
+  #about p {
+    color: rgb(7, 7, 7);
+  
+    font-size: 16px;
+    line-height: 1.5;
+  
+  }
+  
+  #about ul {
+    list-style-type: disc;
+    margin-left: 20px;
+  }
+  
+  #about h2:hover {
+    background-color: #d7dbdc;
+  }
+
+
+
+
+ /* Update footer styles for smaller screens */
+ footer {
+    padding: 0.5em;
+  }
+}
+
+
+
+
+
+
+
+/* Media Queries for Mobile */
+@media screen and (max-width: 480px) {
+    /* Adjustments for mobile screens */
+  
+    /* Update logo margin for smaller screens */
+    .logo img {
+      margin-right: 5px;
+    }
+  
+    /* Update header styles for smaller screens */
+    header {
+      padding: 5px;
+    }
+  
+    /* Update home section padding for smaller screens */
+    #home {
+      padding: 50px;
+    }
+  
+   
+  
+   
+
+
+/* Navigation Style*/
+nav {
+    background-color: #f1f1f1;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #1040c3;
+}
+
+a:hover {
+    background-color: #99a1a4;
+}
+
+/* Home Style*/
+
+ /* Update home section padding for smaller screens */
+ #home {
+    padding: 50px;
+  }
+
+
+
+
+#homeimg {
+    background-color: black;
+
+}
+
+#homeimg p {
+    text-align: center;
+    text-decoration: solid;
+    color: #f1f1f1;
+    font-size: 35px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 0px;
+    padding: 20px;
+    margin-bottom: 0px;
+
+}
+
+#homeimg .container {
+    min-height: 400px;
+}
+
+
+
+
+/* Quote of the day*/
+#quoteday {
+    background-image: url(yourself.jpg);
+    min-height: 1000px;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+
+
+
+.container {
+
+    background-color: rgb(10, 10, 10);
+
+    text-align: center;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+
+    margin-bottom: 20px;
+}
+
+
+
+
+/*  motivational stories*/
+
+
+#container {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 25px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    color: #0a0a0a;
+    background-image:url(storycovrr.jpg);
+    text-align: center;
+}
+
+.story {
+    margin-bottom: 20px;
+}
+
+
+/* quotesbytopic */
+
+main{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 25px;
+    color: #0a0a0a;
+    background-color: #efbdfa;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    
+
+}
+main ol li {
+    list-style-type: numeric;
+    margin-left: 20px;
+    
+}
+
+/*motivationalpictures*/
+
+.mp {
+    margin-left: 40px;
+}
+
+/* About Page */
+
+#about .container {
+    background-color: rgb(147, 180, 242);
+    padding: 50px;
+    text-align: center;
+  
+  }
+  
+  #about h2 {
+    color: rgb(44, 38, 237);
+  }
+  
+  #about p {
+    color: rgb(7, 7, 7);
+  
+    font-size: 16px;
+    line-height: 1.5;
+  
+  }
+  
+  #about ul {
+    list-style-type: disc;
+    margin-left: 20px;
+  }
+  
+  #about h2:hover {
+    background-color: #d7dbdc;
+  }
+
+
+
+
+
+ /* Update footer styles for smaller screens */
+ footer {
+    padding: 0.2em;
+  }
+}
+
